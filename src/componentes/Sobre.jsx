@@ -27,7 +27,12 @@ const Sobre = () => {
                 <Typography sx={{ mb: 1.5 }} color="text.secondary">
                   IFSUL - Passo Fundo
                 </Typography>
-
+                <Typography sx={{ mb: 1.5 }} color="text.secondary">
+                Início da Execução: 01/09/2023 Término da Execução: 31/08/2024
+                </Typography>
+                <Typography sx={{ mb: 1.5 }} color="text.secondary">
+                Número de registro do projeto na PROPESP: PE08230723/059
+                </Typography>
                 <Typography variant="h5" component="div">
                   Data da versão
                 </Typography>
