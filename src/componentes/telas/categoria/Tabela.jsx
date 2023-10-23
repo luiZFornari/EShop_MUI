@@ -49,6 +49,7 @@ function Tabela() {
                     key="editar"
                     onClick={() => editarObjeto(row.codigo)}
                     title="Editar"
+                    aria-label="Editar"
                   >
                     <EditIcon />
                   </Button>
@@ -57,6 +58,7 @@ function Tabela() {
                     key="remover"
                     onClick={() => remover(row.codigo)}
                     title="Apagar"
+                    aria-label="Apagar"
                   >
                     <DeleteIcon />
                   </Button>
