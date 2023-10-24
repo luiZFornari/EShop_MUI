@@ -29,6 +29,7 @@ function Tabela() {
                   variant="contained"
                   onClick={() => novoObjeto()}
                   sx={{ margin: "5px" }}
+                  aria-label="Nova avaliação"
                 >
                   Nova Avaliação
                 </Button>
@@ -58,7 +59,7 @@ function Tabela() {
                     key="remover"
                     onClick={() => remover(row.codigo)}
                     title="Apagar"
-                    aria-label="Apagar"
+                    aria-label="Deletar"
                   >
                     <DeleteIcon />
                   </Button>

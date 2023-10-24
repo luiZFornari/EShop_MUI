@@ -42,23 +42,22 @@ function Login() {
             setAlerta({ status: "success", message: JSON.stringify(json) });
             setAutenticado(true);
             gravaAutenticacao(json);
-          }else{
-           setAlerta({ status: "error", message: JSON.stringify(json) });
+          } else {
+            setAlerta({ status: "error", message: JSON.stringify(json) });
           }
         });
     } catch (err) {
       console.error(err);
     }
 
-  try {
-    const autenticacao = pegaAutenticacao();
-    console.log(autenticacao);
-    console.log("token: " + autenticacao.token);
-    console.log("decoded: " + JSON.stringify(jwt_decode(autenticacao.token)));
-  } catch  {
-    console.error("erro ao pegar usuario");
-  }    
-    
+    try {
+      const autenticacao = pegaAutenticacao();
+      console.log(autenticacao);
+      console.log("token: " + autenticacao.token);
+      console.log("decoded: " + JSON.stringify(jwt_decode(autenticacao.token)));
+    } catch {
+      console.error("erro ao pegar usuario");
+    }
   };
 
   useEffect(() => {

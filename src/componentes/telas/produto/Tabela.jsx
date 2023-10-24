@@ -31,6 +31,7 @@ function Tabela() {
               <TableCell>
                 <Button
                   variant="contained"
+                  aria-label="Novo Produto"
                   onClick={() => novoObjeto()}
                   sx={{ margin: "5px" }}
                 >
@@ -67,8 +68,8 @@ function Tabela() {
                     item
                     key="remover"
                     onClick={() => remover(row.codigo)}
-                    title="Apagar"
-                    aria-label="Apagar"
+                    title="Deletar"
+                    aria-label="Deletar"
                   >
                     <DeleteIcon />
                   </Button>

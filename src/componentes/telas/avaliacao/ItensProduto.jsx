@@ -45,9 +45,6 @@ function ItensProduto() {
                 <Typography variant="h5" component="div">
                   {formatoMoeda(produto.valor)}
                 </Typography>
-                <Typography variant="body2" gutterBottom>
-                  {produto.categoria_nome}
-                </Typography>
                 <Typography variant="body2" color="text.secondary">
                   Estoque: {produto.quantidade_estoque}
                 </Typography>
