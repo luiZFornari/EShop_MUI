@@ -101,6 +101,7 @@ function AcordionAvaliacao(props) {
                       key="editar"
                       onClick={() => editarObjeto(objeto.codigo)}
                       title="Editar"
+                      aria-label="Editar"
                     >
                       <EditIcon />
                     </Button>
@@ -109,6 +110,7 @@ function AcordionAvaliacao(props) {
                       key="remover"
                       onClick={() => remover(objeto.codigo)}
                       title="Apagar"
+                      aria-label="Apagar"
                     >
                       <DeleteIcon />
                     </Button>
