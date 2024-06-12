@@ -31,7 +31,7 @@ function Tabela() {
                   sx={{ margin: "5px" }}
                   aria-label="Nova avaliação"
                 >
-                  Nova Avaliação
+                  Nova Categoria
                 </Button>
               </TableCell>
               <TableCell align="left">Codigo</TableCell>
